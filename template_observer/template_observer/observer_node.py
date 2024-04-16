@@ -77,6 +77,7 @@ class Observer(rclpy.node.Node):
             self.last_eta_msg.data,
             self.last_tau_msg.data,
             self.L1.value,
+            self.obs,
             self.L2.value,
             self.L3.value
         )
